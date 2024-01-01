@@ -28,7 +28,8 @@ SECRET_KEY = 'django-insecure-o73e0q2hzm&p-yq-3-oa9s7z#&m^g%*u^@2#f2=-j#z$^e0x^x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://horekrokom-book-shop-76fv.onrender.com','https://*.127.0.0.1']
 
 
 # Application definition
